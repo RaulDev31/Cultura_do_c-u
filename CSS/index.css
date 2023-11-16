@@ -1,0 +1,57 @@
+/* ESTILO GERAIS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Fira Code', monospace;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(#5c3e79, #7c5e99);
+    height: 100vh;
+}
+
+.interface {
+    max-width: 1280px;
+    margin: auto;
+
+}
+
+/* ESTILO DO CABEÇALHO */
+
+header {
+    padding: 40px 4%;
+}
+
+header>.interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav li {
+    display: inline-block;
+    padding: 0 40px;
+}
+
+header .btn-contato button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #00ff08;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 4px 4px 2px #000;
+}
