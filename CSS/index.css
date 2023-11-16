@@ -153,7 +153,7 @@ h2.titulo {
 
 .sobre .box-sobre:hover {
     transform: scale(1.02);
-    box-shadow: 0 0 10px #000000ef;
+    box-shadow: 0 0 15px#000000ef;
 }
 
 .sobre .box-sobre h3 {
